@@ -7,8 +7,15 @@ const SigninScreen = () => {
       <Text>SigninScreen</Text>
     </View>
   )
-}
+};
 
-export default SigninScreen
+SigninScreen.navigationOptions = () => {
+  return {
+    headerShown: false,
+  };
+};
 
-const styles = StyleSheet.create({})
+
+const styles = StyleSheet.create({});
+
+export default SigninScreen;
